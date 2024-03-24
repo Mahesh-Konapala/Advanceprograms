@@ -1,0 +1,10 @@
+127.0.0.1 - - [11/Mar/2024:10:06:44 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:10:06:45 +0530] "GET /AddProductServlet/ HTTP/1.1" 200 3324
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:10:06:45 +0530] "GET /AddProductServlet/Addproduct.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:10:06:45 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:10:06:50 +0530] "GET /AddProductServlet/Productlist.jsp HTTP/1.1" 200 1287
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:10:09:51 +0530] "GET /AddProductServlet/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:10:11:06 +0530] "GET /AddProductServlet/ HTTP/1.1" 200 3340
+127.0.0.1 - - [11/Mar/2024:10:14:47 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:10:14:48 +0530] "GET /AddProductServlet/ HTTP/1.1" 200 3324
+0:0:0:0:0:0:0:1 - - [11/Mar/2024:10:14:52 +0530] "GET /AddProductServlet/Productlist.jsp HTTP/1.1" 200 1287

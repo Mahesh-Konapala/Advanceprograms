@@ -1,0 +1,12 @@
+127.0.0.1 - - [24/Feb/2024:09:52:17 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:09:52:17 +0530] "GET /Httpservleteapp/ HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:09:52:17 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:09:52:29 +0530] "GET /Httpservleteapp/Form1.html HTTP/1.1" 200 465
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:09:52:37 +0530] "POST /Httpservleteapp/FirstServlet HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:09:53:05 +0530] "POST /Httpservleteapp/FirstServlet HTTP/1.1" 405 752
+127.0.0.1 - - [24/Feb/2024:10:02:29 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:10:02:29 +0530] "GET /Httpservleteapp/ HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:10:02:44 +0530] "POST /Httpservleteapp/FirstServlet HTTP/1.1" 405 752
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:10:08:21 +0530] "GET /Calculatorapp/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:10:08:31 +0530] "GET /Calculatorapp/Calculator.html HTTP/1.1" 200 833
+0:0:0:0:0:0:0:1 - - [24/Feb/2024:10:08:56 +0530] "GET /Calculatorapp/CalculatorServlet?First%3A=2&Second%3A=7&operation=%2B HTTP/1.1" 500 1299

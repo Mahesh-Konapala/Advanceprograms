@@ -1,0 +1,11 @@
+127.0.0.1 - - [22/Feb/2024:20:28:46 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:20:28:46 +0530] "GET /Httpservleteapp/ HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:20:28:46 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:20:29:09 +0530] "GET /Httpservleteapp/Form.html HTTP/1.1" 404 780
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:20:29:29 +0530] "GET /Httpservleteapp/ HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:20:29:40 +0530] "GET /Httpservleteapp/Form1.html HTTP/1.1" 200 473
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:20:29:48 +0530] "POST /Httpservleteapp/FirstServlet HTTP/1.1" 405 752
+127.0.0.1 - - [22/Feb/2024:20:46:04 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:20:46:04 +0530] "GET /Httpservleteapp/ HTTP/1.1" 404 771
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:20:46:17 +0530] "GET /Httpservleteapp/Form1.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Feb/2024:20:46:22 +0530] "POST /Httpservleteapp/FirstServlet HTTP/1.1" 405 752

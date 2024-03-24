@@ -1,0 +1,43 @@
+<%@page import="com.sathya.servlet.ProductDao" import="java.util.Base64"%>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Product List</title>
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+<table class="table table-bordered table-striped">
+<thead class="thead-dark">
+       <tr>
+           <th>ProductID</th>
+           <th>ProductName</th>
+           <th>ProductCost</th>
+           <th>Brand</th>
+           <th>Made IN</th>
+           <th>MAnufacturing date</th>
+           <th>ExpiryDate</th>
+           <th>Image</th>
+       </tr>
+</thead>
+<tbody>
+       <c:forEach var="product" items="<%=new ProductDao().findAll() %>">
+            <tr>
+                <td>${product.proId}</td>
+                <td>${product.proName}</td>
+                <td>${product.proPrice}</td>
+                <td>${product.proBrand}</td>
+                <td>${product.proMadeIn}</td>
+                <td>${product.proMfgDate}</td>
+                <td>${product.proExpDate}</td>
+                <td><img src="data:image/jpeg;base64,${Base64.getEncoder().encodeToString(product.proImage)}" alt="ProductImage" style="max-width:100px; max-height:100px;">
+                </td>
+            </tr>
+     	</c:forEach>
+</tbody>
+</table>
+</body>
+</html>

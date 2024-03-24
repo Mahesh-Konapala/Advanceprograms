@@ -1,0 +1,41 @@
+<%@page import="com.sathya.servlet.ProductDao" %>
+<%@ page language="java" contentType="text/html"%> 
+
+    <%@taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<html>
+    <head>
+        <title> Product List</title>
+        <link rel="stylesheet"
+		 href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    </head>
+    <body>
+         <table class="table table-bordered table-striped">
+              <thead class="thead-dark">
+              <tr>
+                  <th>Product Id</th>
+                  <th> product Name</th>
+                  <th> product Cost</th>
+                  <th> Brand</th>
+                  <th>Made In</th>
+                  <th> Manufacture Date</th>
+                  <th> proExpDate</th>
+                  
+                  </tr>
+                  </thead>
+               <tbody>
+                      <c:forEach var ="Product" items="<%=new ProductDao().findAll()%>">
+                      <tr>
+                      <td>${product.ProId}</td> 
+                      <td>${product.ProName}</td> 
+                      <td>${product.ProPrice}</td> 
+                      <td>${product.ProBrand}</td> 
+                      <td>${product.ProMadeIn}</td> 
+                      <td>${product.ProMfgDate}</td> 
+                      <td>${product.ProExpDate}</td> 
+                      </tr>
+                      
+                      </c:forEach>
+               </tbody>
+         </table>  
+    </body>
+</html>
